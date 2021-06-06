@@ -53,7 +53,12 @@
                     </propertiesUser>
                     <testFilesIncluded>
                             <jMeterTestFile>ff.jmx</jMeterTestFile>
+                            <jMeterTestFile>chrome.jmx</jMeterTestFile>
                         </testFilesIncluded>
+                        <propertiesSystem>
+                        
+                        <webdriver.gecko.driver>${user.dir}/src/test/jmeter/geckodriver.exe</webdriver.gecko.driver>
+                        </propertiesSystem>
 				</configuration>
 			</plugin>
 
